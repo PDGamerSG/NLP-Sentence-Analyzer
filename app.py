@@ -48,7 +48,7 @@ for i in range(n):
 for i in range(len(sentences)):
     j=0
     while j<(len(words)):
-        if words[j] in set(stopwords.words('ENGLISH')):
+        if words[j] in set(stopwords.words('english')):
             del words[j]
         else:
             j+=1
