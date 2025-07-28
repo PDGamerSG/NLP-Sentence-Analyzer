@@ -7,7 +7,6 @@ import pickle
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
-nltk. download('averaged_perceptron_tagger_eng')
 from nltk.corpus import stopwords
 from nltk import pos_tag,word_tokenize,pos_tag_sents
 st.header("NLP Sentence Analyzer")
